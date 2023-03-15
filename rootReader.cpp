@@ -11,13 +11,11 @@
 #define FATIMA
 #endif //N_SI_120
 
+#include "lib/utils.hpp"
+#include "lib/Event.hpp"
+#include "lib/FilesManager.hpp"
 
-#include "../FASTER/NearLine3/NearLine-lib/utils.hpp"
 Labels g_labelToName;
-
-#include "../FASTER/NearLine3/NearLine-lib/Classes/Event.hpp"
-#include "../FASTER/NearLine3/NearLine-lib/Classes/FilesManager.hpp"
-// #include "../FASTER/NearLine3/NearLine-lib/Modules/Analyse.hpp"
 
 #include "Classes/Parameters.hpp"
 

@@ -1,6 +1,3 @@
-#ifndef MANIPREADER_H
-#define MANIPREADER_H
-
 class ManipReader
 {
 public:
@@ -14,5 +11,3 @@ ManipReader::ManipReader()
 {
 
 }
-
-#endif //MANIPREADER_H

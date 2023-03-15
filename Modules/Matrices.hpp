@@ -55,7 +55,7 @@ private:
   Sorted_Event *m_s_event = nullptr;
 };
 
-bool EachDetector::setParameters(std::string const & parameters)
+bool Matrices::setParameters(std::string const & parameters)
 {
   std::string temp;
   std::istringstream is(parameters);
