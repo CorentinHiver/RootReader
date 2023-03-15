@@ -43,7 +43,7 @@ int main(int argc, char** argv)
   std::string fileID = "ID/index_120.dat";
 
 #elif defined (N_SI_129)
-  std::string outDir = "129/";
+  std::string outDir = "../Data/129/";
   std::string fileID = "ID/index_129.dat";
 
 #endif

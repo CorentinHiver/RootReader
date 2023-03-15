@@ -46,6 +46,13 @@ bool Parameters::setParameters(int argc, char ** argv)
     }
 
   }
+  else if (strcmp(argv[1],"-f")==0)
+  {
+    if (argc == 3)
+    {
+      m_files.addFiles(argv[2]);
+    }
+  }
   else
   {
     print("ERREUR INPUT, wrong mode"); return false;
